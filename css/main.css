@@ -1,0 +1,61 @@
+.background{
+  background-image: url('../images/background.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.logo{
+  display: block;
+  width: 100px;
+  height: 33px;
+  background-image: url('https://freemiumtemplates.com/wp-content/uploads/2016/11/header.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto 10px auto;
+}
+
+.con-box{
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: rgba(54, 63, 72, 0.9);
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  padding: 20px 20px;
+
+}
+
+.con-box h2{
+padding: 0;
+margin: 0;
+line-height: 1;
+font-size: 10em;
+font-weight: 300;
+}
+.cto{
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #de5b49;
+  margin-top: 10px;
+}
+.cto:hover{
+    text-decoration:none;
+    background-color: #cc5342;
+    color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+.con-box h2{
+font-size: 6em;
+}
+}
